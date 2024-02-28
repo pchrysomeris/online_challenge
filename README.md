@@ -8,7 +8,7 @@ The objective is to create 2 services with the following communication behaviour
    The messages sent and received may change in the future.
    The services may run in separate computers.
 
-##Steps:
+## Steps:
 1. start service A: python3 service_a.py
 2. start service B: python3 service_b.py
 3. start communication: curl -X 'POST' 'http://localhost:5030/api/service_a'
