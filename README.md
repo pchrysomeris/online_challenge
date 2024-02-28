@@ -13,4 +13,5 @@ The services may run in separate computers.
 1. start service A: python3 service_a.py
 2. start service B: python3 service_b.py
 3. start communication: curl -X 'POST' 'http://localhost:5030/api/service_a'
+
    (localhost or IP of service A)
