@@ -1,12 +1,12 @@
 # online_challenge
 
 The objective is to create 2 services with the following communication behaviour:
-                a. Service A sends to Service B a request with the message "Hello".
-                b. Service B:
-                                i. has 90% chance to successfully respond with message "World".
-                                ii. has 10% chance to respond with a failure message.
-   The messages sent and received may change in the future.
-   The services may run in separate computers.
+a. Service A sends to Service B a request with the message "Hello".
+b. Service B:
+  i. has 90% chance to successfully respond with message "World".
+  ii. has 10% chance to respond with a failure message.
+The messages sent and received may change in the future.
+The services may run in separate computers.
 
 ## Steps:
 1. start service A: python3 service_a.py
