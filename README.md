@@ -5,7 +5,7 @@ The objective is to create 2 services with the following communication behaviour
 2. Service B:
    - has 90% chance to successfully respond with message "World".
    - has 10% chance to respond with a failure message.
-   - 
+     
 The messages sent and received may change in the future.
 The services may run in separate computers.
 
